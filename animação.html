@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #mundo{
+        width: 300px;
+        height: 300px;
+        outline: 3px solid black;
+        margin: 0 auto;
+    }
+    #mario{
+        background-image: url(frames/0.gif);
+        width: 300px;
+        height: 300px;
+        background-size: contain;
+        animation: run 0.6s infinite steps(2);
+            }
+    @keyframes run{
+        
+  20% {
+    background-image: url('frames/10.gif');
+  }
+  30% {
+    background-image: url('frames/11.gif');
+  }
+  40% {
+    background-image: url('frames/12.gif');
+  }
+  50% {
+    background-image: url('frames/13.gif');
+  }
+  60% {
+    background-image: url('frames/14.gif');
+  }
+  70% {
+    background-image: url('frames/15.gif');
+  }
+  80% {
+    background-image: url('frames/16.gif');
+  }
+  90% {
+    background-image: url('frames/17.gif');
+  }
+    }
+</style>
+</head>
+<body>
+    <br><br><br><br><br><br><br><br><br>
+    <div id="mundo">
+        <div id="mario"></div>
+    </div>
+</body>
+</html>
